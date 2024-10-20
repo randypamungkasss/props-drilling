@@ -6,8 +6,7 @@ import { createContext } from "react";
 export const UserContext = createContext();
 
 export default function App() {
-  const username = "Pirna";
-
+  const username = "Account";
   return (
     <UserContext.Provider value={{ username }}>
       <Header />
